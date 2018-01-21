@@ -25569,24 +25569,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ragha\\.nuget\\packages\\": {},
+    "C:\\Users\\ragav\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ragha\\source\\repos\\ProIndian\\ProIndian\\ProIndian.csproj",
+      "projectUniqueName": "C:\\Users\\ragav\\Documents\\GitHub\\PostPublishErr\\ProIndian\\ProIndian\\ProIndian.csproj",
       "projectName": "ProIndian",
-      "projectPath": "C:\\Users\\ragha\\source\\repos\\ProIndian\\ProIndian\\ProIndian.csproj",
-      "packagesPath": "C:\\Users\\ragha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ragha\\source\\repos\\ProIndian\\ProIndian\\obj\\",
+      "projectPath": "C:\\Users\\ragav\\Documents\\GitHub\\PostPublishErr\\ProIndian\\ProIndian\\ProIndian.csproj",
+      "packagesPath": "C:\\Users\\ragav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ragav\\Documents\\GitHub\\PostPublishErr\\ProIndian\\ProIndian\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ragha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ragav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

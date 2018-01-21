@@ -27,7 +27,7 @@ namespace ProIndian
         {
             this.InitializeComponent();
             BackButton.Visibility = Visibility.Collapsed;
-            MyFrame.Navigate(typeof(MinistriesPage));
+            MyFrame.Navigate(typeof(HomePage));
             TitleTextBlock.Text = "Being a Pro Indian";
             HomeItem.IsSelected = true;
         }
@@ -51,8 +51,8 @@ namespace ProIndian
             if (HomeItem.IsSelected)
             {
                 BackButton.Visibility = Visibility.Collapsed;
-                MyFrame.Navigate(typeof(MinistriesPage));
-                TitleTextBlock.Text = "Being a Pro Indian";
+                MyFrame.Navigate(typeof(HomePage));
+                TitleTextBlock.Text = "Must have apps";
             }
             else if (ListOfMinistries.IsSelected)
             {
