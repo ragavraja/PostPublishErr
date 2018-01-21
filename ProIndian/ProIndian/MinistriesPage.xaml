@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="ProIndian.MinistriesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProIndian"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer  >
+            <ListView Name="MinistryListView" ItemsSource="{x:Bind ViewModel.Ministries}"
+                        DisplayMemberPath="MinistryName"
+                        SelectionChanged="ListView_SelectionChanged"
+                        VariableSizedWrapGrid.ColumnSpan="1"/>
+        </ScrollViewer>
+
+        <Frame Name="FrameMinistry" Grid.Column="1"  >
+            <WebView x:Name="WebviewMinistry" MinHeight="700" MinWidth="1100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Frame>
+
+    </Grid>
+</Page>
